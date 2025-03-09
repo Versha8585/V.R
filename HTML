@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR TechCon 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to VR TechCon 2025</h1> 
+        <p>The Ultimate Technology and Programming Conference</p>
+        <div id="countdown">Event starts in: <span id="timer"></span></div>
+    </header>
+
+    <nav>
+        <button class="menu-toggle">☰ Menu</button>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#events">Upcoming Events</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Join us for insightful talks, hands-on workshops, and an opportunity to network with professionals worldwide.</p>
+        <img src="images/event.jpg" alt="Tech Conference">
+    </section>
+
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Opening Keynote</td>
+                    <td>VRPlatform</td> 
+                </tr>
+                <tr>
+                    <td>10:30 AM</td>
+                    <td>Understanding AI and Machine Learning</td>
+                    <td>Mr. Arvind Kumar</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Lunch Break</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP for the Event</h2>
+        <form id="rsvp-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <button type="submit">RSVP Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3>Follow Us</h3>
+        <p>
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">LinkedIn</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
