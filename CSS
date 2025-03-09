@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #f4f4f4;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #222831;
+    text-align: center;
+    padding: 12px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #ff6347;
+}
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #16213e;
+    border-radius: 8px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+#countdown {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ff6347;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+}
+form label {
+    display: block;
+    margin: 8px 0;
+    font-weight: 600;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+form button {
+    background-color: #ff6347;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #e04e3f;
+}
+footer {
+    background-color: #222831;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #ff6347;
+}
